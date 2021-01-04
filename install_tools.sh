@@ -1,4 +1,10 @@
-# nano
+#!/bin/bash
+
+#apt
+sudo apt update
+sudo apt upgrade
+
+#nano
 sudo apt -y install nano
 
 #curl
