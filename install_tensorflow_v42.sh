@@ -17,18 +17,3 @@ sudo -H pip3 install --no-cache-dir --extra-index-url https://developer.download
 # tensorflow_gpu=1.15.0+nv19.11
 # tensorflow_gpu=2.0.0+nv19.11
 
-
-#Jetpack v4.3 tensorflow-gpu
-#sudo -H pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow-gpu==1.15.0+nv20.1
-#sudo -H pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow-gpu==2.0.0+nv20.1
-
-#Jetpack v4.3 tensorflow
-#sudo -H pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v43 tensorflow==2.1.0+nv20.3
-# tensorflow=1.15.2+nv20.3
-
-#Jetpack v4.4
-#sudo -H pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 tensorflow-gpu==1.15.4+nv20.12
-# tensorflow=1.15.4+nv20.12
-# tensorflow=2.3.1+nv20.12
-
-

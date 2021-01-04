@@ -29,9 +29,3 @@ sudo apt -y install libhdf5-serial-dev hdf5-tools libhdf5-dev libjpeg8-dev libla
 # Install avahi daemon for .local access
 sudo apt -y install avahi-daemon
 
-
-
-
-
-
-
