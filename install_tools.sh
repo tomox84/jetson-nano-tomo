@@ -3,6 +3,7 @@
 #apt
 sudo apt update
 sudo apt upgrade
+sudo apt -y install apt-utils
 
 #nano
 sudo apt -y install nano
