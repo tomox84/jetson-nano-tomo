@@ -6,7 +6,6 @@
 
 
 sudo -H pip3 install -U testresources setuptools
-# Successfully installed pbr-5.5.1 setuptools-51.1.1 testresources-2.0.1
 
 sudo -H pip3 install -U opt-einsum==2.3.2 numpy==1.16.0 gast==0.2.2 tensorboard==1.15.0 h5py==2.10.0 tensorflow-estimator==1.15.1 keras_preprocessing astor termcolor wrapt google-pasta keras-applications
 
