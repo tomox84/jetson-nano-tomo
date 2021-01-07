@@ -1,15 +1,15 @@
 # --------------------
 # Jetpack 4.3
 # 
-# tensorflow-gpu==1.15.0+nv19.11
+# tensorflow-gpu==1.14.0+nv19.10
 # --------------------
-
 
 sudo -H pip3 install -U testresources setuptools
 
-sudo -H pip3 install -U opt-einsum==2.3.2 numpy==1.16.0 gast==0.2.2 tensorboard==1.15.0 h5py==2.10.0 tensorflow-estimator==1.15.1 keras_preprocessing astor termcolor wrapt google-pasta keras-applications
 
-sudo -H pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.15.0+nv19.11
+sudo -H pip3 install -U opt-einsum==2.3.2 numpy==1.16.0 gast==0.2.2 tensorboard==1.14.0 h5py==2.10.0 tensorflow-estimator==1.14.0 keras_preprocessing astor termcolor wrapt google-pasta keras-applications
+
+sudo -H pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.14.0+nv19.10
 
 << pip3List
 absl-py (0.11.0)
@@ -88,9 +88,9 @@ six (1.15.0)
 ssh-import-id (5.7)
 system-service (0.3)
 systemd-python (234)
-tensorboard (1.15.0)
-tensorflow-estimator (1.15.1)
-tensorflow-gpu (1.15.0+nv19.11.tf1)
+tensorboard (1.14.0)
+tensorflow-estimator (1.14.0)
+tensorflow-gpu (1.14.0+nv19.10)
 tensorrt (6.0.1.10)
 termcolor (1.1.0)
 testresources (2.0.1)
