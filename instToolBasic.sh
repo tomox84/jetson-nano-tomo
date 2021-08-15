@@ -23,9 +23,3 @@ sudo apt -y install python3-dev
 sudo apt -y install python3-pil
 sudo apt -y install python3-matplotlib
 
-# lib
-sudo apt -y install libhdf5-serial-dev hdf5-tools libhdf5-dev libjpeg8-dev liblapack-dev libblas-dev gfortran
-
-# Install avahi daemon for .local access
-sudo apt -y install avahi-daemon
-
