@@ -14,6 +14,6 @@ sudo apt install -y ros-dashing-desktop
 echo "[Environment setup]"
 source /opt/ros/dashing/setup.bash
 
-sudo apt install python3-colcon-common-extensions
-sudo apt install python3-argcomplete
+sudo apt install -y python3-colcon-common-extensions
+sudo apt install -y python3-argcomplete
 echo "source /opt/ros/dashing/setup.bash" >> ~/.bashrc
